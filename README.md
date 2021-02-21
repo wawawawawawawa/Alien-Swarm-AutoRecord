@@ -1,4 +1,15 @@
-# WC3 RPG Loader : Automatic Loading for Warcraft III
+# Alien Swarm AutoRecord
+
+This tool will allow you to setup an automatic recording of your games in a few clicks!
+
+Download and Extract the files, then Run AutoRecordInstaller.exe (or .ahk if you have AutoHotkey installed).
+You will be asked the game executable localization.
+The tool will then update newmapsettings.cfg and create AlienSwarmLauncher.bat
+You will be asked to change your launch options
+And it's done!
+Now your games will be named "asrd_(date/time when u launched the game)_X.dem"
+
+
 
 Check out the [Discord](https://discord.gg/N9rjQ6r) if you have some question!
 
