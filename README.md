@@ -10,6 +10,8 @@ Download and Extract the files, then Run AutoRecordInstaller.exe (or .ahk if you
 
 3) You will be asked to change your launch options
 
+![LaunchOptions](https://i.imgur.com/OuL8Nol.png)
+
 And it's done!
 
 Now your games will be named "asrd_(date/time when u launched the game)_X.dem"
