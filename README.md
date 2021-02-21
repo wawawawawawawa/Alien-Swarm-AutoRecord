@@ -4,13 +4,13 @@ This tool will allow you to setup an automatic recording of your games in a few 
 
 Download and Extract the files, then Run AutoRecordInstaller.exe (or .ahk if you have AutoHotkey installed).
 
-1) You will be asked the game executable localization.
+**1) You will be asked the game executable localization.**
 
    Usually in ...Program Files\Steam\steamapps\common\Alien Swarm Reactive Drop\reactivedrop.exe
 
-2) The tool will then update newmapsettings.cfg and create AlienSwarmLauncher.bat + autorecording.cfg
+**2) The tool will then update newmapsettings.cfg and create AlienSwarmLauncher.bat + autorecording.cfg**
 
-3) You will be asked to change your launch options
+**3) You will be asked to change your launch options**
 
 ![LaunchOptions](https://i.imgur.com/VMRNG8l.png)
 
@@ -28,11 +28,11 @@ To view a record, just write "demoui" in console and select the .dem file
 
 ## How Does It Work
 
-1) Launches AutoRecord.exe (or .ahk) alongside the game, by using AlienSwarmLauncher.bat (that is set in the steam launch options)
+**1) Launches AutoRecord.exe (or .ahk) alongside the game, by using AlienSwarmLauncher.bat (that is set in the steam launch options)**
 
    *You can open the .bat file to see the code, it just open AutoRecord.exe, then the game executable path asked during install.*
 
-2) AutoRecord.exe will then modify autorecording.cfg (created by installer in the cfg folder) to have the current date/time.
+**2) AutoRecord.exe will then modify autorecording.cfg (created by installer in the cfg folder) to have the current date/time.**
    
    This is done only once when launching the game. 
    
@@ -40,14 +40,14 @@ To view a record, just write "demoui" in console and select the .dem file
 
    `alias AutoRecording "record ASRD_2021_02_21__01_18_36"`
 
-3) Add 2 lines to newmapsettings.cfg :
+**3) Add 2 lines to newmapsettings.cfg :**
    ```
    exec autorecording
    AutoRecording
    ```
    *This will reload autorecording.cfg to update the AutoRecording alias and execute it*
    
-4) Each game is now named asrd_(date/time when game was launched)_X
+**4) Each game is now named asrd_(date/time when game was launched)_X**
    
    X is the game number (50 = 50th map change or restart)
    
