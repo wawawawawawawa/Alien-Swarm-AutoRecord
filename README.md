@@ -49,3 +49,4 @@ To view a record, just write "demoui" in console and select the .dem file
 - game directory/reactivedrop/cfg/autorecording.cfg => delete file
 - game directory/reactivedrop/cfg/newmapsettings.cfg => delete those 2 lines : exec autorecording & AutoRecording
 - Steam -> Launch Options => remove the launch option line
+- Script File/Folder => delete all
