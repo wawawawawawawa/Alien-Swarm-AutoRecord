@@ -26,7 +26,7 @@ else
 TextToWrite = START "AutoRecord" "%A_ScriptDir%\AutoRecord.ahk"`nSTART "Alien Swarm" "%GameDir%" -console -novid
 ; TextToWrite = START "AutoRecord" "%A_ScriptDir%\AutoRecord.exe"`nSTART "Alien Swarm" "%GameDir%" -console -novid
 FileDelete, %A_ScriptDir%\AlienSwarmLauncher.bat
-FileAppend, %TextToWrite%, %A_ScriptDir%\AlienSwarmLauncher.bat
+FileAppend, %TextToWrite%, %A_ScriptDir%\Alien Swarm Launcher.bat
 MsgBox, AlienSwarmLauncher.bat created!
 
 IniRead, NewMapSettingsDir, %A_ScriptDir%\AutoRecord.ini, Settings, NewMapSettingsDir
