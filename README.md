@@ -26,5 +26,5 @@ To view a record, just write "demoui" in console and select the .dem file
 
 2) Add to newmapsettings.cfg :
 
-- exec autorecording
-- AutoRecording
+> exec autorecording
+> AutoRecording
