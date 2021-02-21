@@ -27,13 +27,15 @@ To view a record, just write "demoui" in console and select the .dem file
 2) AutoRecord.exe will then modify autorecording.cfg (created by installer in the cfg folder) to have the current date/time.
    
    This is done only once when launching the game. 
+   
    This file only contains 1 line (example) :
 
    `alias AutoRecording "record ASRD_2021_02_21__01_18_36"`
 
 3) Add 2 lines to newmapsettings.cfg :
-```
+   ```
    exec autorecording`nTest
    AutoRecording
-```
+   ```
+   
    *This will reload autorecording.cfg and execute the alias AutoRecording when you change map*
