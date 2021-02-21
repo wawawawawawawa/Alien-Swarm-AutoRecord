@@ -37,4 +37,10 @@ To view a record, just write "demoui" in console and select the .dem file
    exec autorecording
    AutoRecording
    ```
-   *This will reload autorecording.cfg and execute the alias AutoRecording when you change map*
+   *This will reload autorecording.cfg to update the AutoRecording alias and execute it*
+   
+4) Each game is now named asrd_(date/time when game was launched)_X
+   
+   X is the game number (50 = 50th map change or restart)
+   
+   If you want to rename and sort those, I made another tool for this purpose : [DemoRenamer]()
