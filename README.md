@@ -4,11 +4,11 @@ This tool will allow you to setup an automatic recording of your games in a few 
 
 Download and Extract the files, then Run AutoRecordInstaller.exe (or .ahk if you have AutoHotkey installed).
 
-You will be asked the game executable localization.
+1) You will be asked the game executable localization.
 
-The tool will then update newmapsettings.cfg and create AlienSwarmLauncher.bat
+2) The tool will then update newmapsettings.cfg and create AlienSwarmLauncher.bat
 
-You will be asked to change your launch options
+3) You will be asked to change your launch options
 
 And it's done!
 
