@@ -2,11 +2,11 @@
 
 This tool will allow you to setup an automatic recording of your games in a few clicks!
 
-Download and Extract the files, then Run AutoRecordInstaller.exe (or .ahk if you have AutoHotkey installed).
+**1) Download and Extract the files, then Run AutoRecordInstaller.exe (or .ahk if you have AutoHotkey installed).**
 
-**1) You will be asked the game executable localization.**
+You will be asked the game executable localization.
 
-Usually in ...Program Files\Steam\steamapps\common\Alien Swarm Reactive Drop\reactivedrop.exe
+It's usually in ...Program Files\Steam\steamapps\common\Alien Swarm Reactive Drop\reactivedrop.exe
 
 **2) The tool will then update newmapsettings.cfg and create AlienSwarmLauncher.bat + autorecording.cfg**
 
