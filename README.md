@@ -29,7 +29,7 @@ To view a record, just write "demoui" in console and select the .dem file
 
 3) Add 2 lines to newmapsettings.cfg :
 
-> exec autorecording
+> exec autorecording`nTest
 
 > AutoRecording
 
