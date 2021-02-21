@@ -6,6 +6,8 @@ Download and Extract the files, then Run AutoRecordInstaller.exe (or .ahk if you
 
 1) You will be asked the game executable localization.
 
+   Usually in ...Program Files\Steam\steamapps\common\Alien Swarm Reactive Drop\reactivedrop.exe
+
 2) The tool will then update newmapsettings.cfg and create AlienSwarmLauncher.bat + autorecording.cfg
 
 3) You will be asked to change your launch options
@@ -16,7 +18,11 @@ And it's done!
 
 Now your games will be named "asrd_(date/time when u launched the game)_X.dem"
 
+![record](https://i.imgur.com/gkKfBDH.png)
+
 You can sort them by using my other tool : [DemoRenamer](https://github.com/wawawawawawawa/DemoRenamer)
+
+![renamer](https://i.imgur.com/Dl5tkcQ.png)
 
 To view a record, just write "demoui" in console and select the .dem file
 
