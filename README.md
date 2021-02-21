@@ -44,3 +44,8 @@ To view a record, just write "demoui" in console and select the .dem file
    X is the game number (50 = 50th map change or restart)
    
    If you want to rename and sort those, I made another tool for this purpose : [DemoRenamer](https://github.com/wawawawawawawa/DemoRenamer)
+   
+5) To Uninstall, you need to delete :
+- game directory/reactivedrop/cfg/autorecording.cfg => delete file
+- game directory/reactivedrop/cfg/newmapsettings.cfg => delete those 2 lines : exec autorecording & AutoRecording
+- Steam -> Launch Options => remove the launch option line
