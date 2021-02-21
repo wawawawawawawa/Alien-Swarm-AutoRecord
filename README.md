@@ -10,7 +10,7 @@ Download and Extract the files, then Run AutoRecordInstaller.exe (or .ahk if you
 
 3) You will be asked to change your launch options
 
-![LaunchOptions](https://i.imgur.com/OuL8Nol.png)
+![LaunchOptions](https://i.imgur.com/VMRNG8l.png)
 
 And it's done!
 
