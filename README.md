@@ -8,9 +8,9 @@ You will be asked the game executable localization.
 
 It's usually in ...Program Files\Steam\steamapps\common\Alien Swarm Reactive Drop\reactivedrop.exe
 
-**2) The tool will then update newmapsettings.cfg and create AlienSwarmLauncher.bat + autorecording.cfg**
+The tool will then update newmapsettings.cfg and create AlienSwarmLauncher.bat + autorecording.cfg
 
-**3) You will be asked to change your launch options**
+**2) You will be asked to change your steam launch options**
 
 ![LaunchOptions](https://i.imgur.com/VMRNG8l.png)
 
