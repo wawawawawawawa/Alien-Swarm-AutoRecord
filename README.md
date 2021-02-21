@@ -8,7 +8,7 @@ The tool will then update newmapsettings.cfg and create AlienSwarmLauncher.bat
 You will be asked to change your launch options
 And it's done!
 Now your games will be named "asrd_(date/time when u launched the game)_X.dem"
-
+You can sort them by using my other tool : [DemoRenamer]()
 
 
 Check out the [Discord](https://discord.gg/N9rjQ6r) if you have some question!
