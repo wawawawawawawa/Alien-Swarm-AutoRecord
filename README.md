@@ -33,9 +33,8 @@ To view a record, just write "demoui" in console and select the .dem file
    `alias AutoRecording "record ASRD_2021_02_21__01_18_36"`
 
 3) Add 2 lines to newmapsettings.cfg :
-   ```
-   exec autorecording`nTest
-   AutoRecording
-   ```
+
+   `exec autorecording`
+   `AutoRecording`
    
    *This will reload autorecording.cfg and execute the alias AutoRecording when you change map*
