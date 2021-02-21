@@ -30,7 +30,7 @@ To view a record, just write "demoui" in console and select the .dem file
 
 **1) Launches AutoRecord.exe (or .ahk) alongside the game, by using AlienSwarmLauncher.bat (that is set in the steam launch options)**
 
-*You can open the .bat file to see the code, it just open AutoRecord.exe, then the game executable path asked during install.*
+You can open the .bat file to see the code, it just open AutoRecord.exe, then the game executable path asked during install.
 
 **2) AutoRecord.exe will then modify autorecording.cfg (created by installer in the cfg folder) to have the current date/time.**
    
@@ -45,7 +45,7 @@ This file only contains 1 line (example) :
 exec autorecording
 AutoRecording
 ```
-*This will reload autorecording.cfg to update the AutoRecording alias and execute it*
+This will reload autorecording.cfg to update the AutoRecording alias and execute it
    
 **4) Each game is now named asrd_(date/time when game was launched)_X**
    
