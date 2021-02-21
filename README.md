@@ -2,7 +2,7 @@
 
 This tool will allow you to setup an automatic recording of your games in a few clicks!
 
-**1) Download and Extract the files, then Run AutoRecordInstaller.exe (or .ahk if you have AutoHotkey installed).**
+**1) Download and Extract the files, then Run AutoRecordInstaller.exe (or .ahk if you have [AutoHotkey](https://www.autohotkey.com/) installed).**
 
 You will be asked the game executable localization.
 
