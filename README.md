@@ -6,7 +6,7 @@ Download and Extract the files, then Run AutoRecordInstaller.exe (or .ahk if you
 
 1) You will be asked the game executable localization.
 
-2) The tool will then update newmapsettings.cfg and create AlienSwarmLauncher.bat
+2) The tool will then update newmapsettings.cfg and create AlienSwarmLauncher.bat + autorecording.cfg
 
 3) You will be asked to change your launch options
 
@@ -18,13 +18,18 @@ You can sort them by using my other tool : [DemoRenamer]()
 
 To view a record, just write "demoui" in console and select the .dem file
 
-# How Does It Work
+## How Does It Work
 
 1) Launches AutoRecord.exe (or .ahk) alongside the game, by using AlienSwarmLauncher.bat (that is set in the steam launch options)
 
-  You can open the .bat file to see the code, it just open AutoRecord.exe, then the game executable path asked during install.
+*You can open the .bat file to see the code, it just open AutoRecord.exe, then the game executable path asked during install.*
 
-2) Add to newmapsettings.cfg :
+2) AutoRecord.exe will then modify autorecording.cfg (created by installer in the cfg folder) to have the current date/time. This file only contains 1 line :
+> alias AutoRecording "record ASRD_2021_02_21__01_18_36"
 
-> exec autorecording
-> AutoRecording
+3) Add 2 lines to newmapsettings.cfg :
+
+- exec autorecording
+- AutoRecording
+
+*This will reload autorecording.cfg and execute the alias AutoRecording when you change map*
