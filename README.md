@@ -14,7 +14,7 @@ And it's done!
 
 Now your games will be named "asrd_(date/time when u launched the game)_X.dem"
 
-You can sort them by using my other tool : [DemoRenamer]()
+You can sort them by using my other tool : [DemoRenamer](https://github.com/wawawawawawawa/DemoRenamer)
 
 To view a record, just write "demoui" in console and select the .dem file
 
@@ -43,4 +43,4 @@ To view a record, just write "demoui" in console and select the .dem file
    
    X is the game number (50 = 50th map change or restart)
    
-   If you want to rename and sort those, I made another tool for this purpose : [DemoRenamer]()
+   If you want to rename and sort those, I made another tool for this purpose : [DemoRenamer](https://github.com/wawawawawawawa/DemoRenamer)
